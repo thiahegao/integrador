@@ -1,0 +1,57 @@
+.contenedorForm{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.convierteOrador{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.recuerda{
+    color: #aaa;
+    font-size: small;
+    margin-right: auto;
+    margin-top: 1%;
+}
+.charlaForm p:nth-child(1){
+    margin-left: 15%;
+    font-size: small;
+
+}
+.charlaForm{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-left: 25%;
+    justify-content: space-between;
+}
+.charlaForm p{
+    font-size: small;
+}
+.enviar{
+    width: 100%;
+    border-radius: 5px;
+    border: #CFD4DA solid 1px;
+    background: #96C93E;
+    color: #fff;
+}
+.formulario{
+    width: 100%;
+    border-radius: 5px;
+    border: #CFD4DA solid 1px;
+    margin-top: 2%;
+}
+
+.nombre{
+    width: 49%;
+    border-radius: 5px;
+    border: #CFD4DA solid 1px;
+}
+.apellido{
+    width: 49%;
+    border-radius: 5px;
+    border: #CFD4DA solid 1px;
+}
+

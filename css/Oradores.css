@@ -1,0 +1,69 @@
+
+.oradores{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+.conoceOradores{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1%;
+}
+.oradores img{
+    height: 60%;
+    width: 100%;
+    border-radius: 7px 7px 0 0;
+}
+.oradores div{
+    width: 30%;
+    height: 100%;
+    border: #aaa solid 1px;
+    border-radius: 8px;
+    justify-content: center;
+}
+.oradores ul{
+    display: flex;
+}
+.oradores li{
+    list-style: none;
+}
+
+.javaOradores{
+    background: rgb(253, 194, 6);
+    color: #000;
+    border-radius: 5px;
+    padding: 0 5px 0 5px;
+    margin:5% 0 0 0;
+}
+.oradores p{
+    width: 90%;
+    margin: 3% 8% 8% 8%;
+}
+.oradores h2{
+    margin: 0 8% 0 8%;
+}
+
+.reactOradores{
+    background: rgb(26, 160, 187);
+    color: #fff;
+    border-radius: 5px;
+    padding: 0 5px 0 5px;
+    margin:5% 2% 0 2%;
+}
+
+.negociosOradores{
+    background: #6B747D;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0 5px 0 5px;
+    margin:5% 2% 0 2%;
+}
+
+.startupsOradores{
+    background: #DC3546;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0 5px 0 5px;
+    margin:5% 2% 0 2%;
+}

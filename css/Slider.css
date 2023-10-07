@@ -1,0 +1,38 @@
+.sliderContainer{
+    position:absolute;
+    z-index: 1;
+    color: #fff;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    margin: 20% 10% 0 0;
+}
+
+.sliderContainer p{
+    width: 31%;
+    text-align: right;
+
+}
+.sliderContainer ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.sliderContainer ul li{
+    list-style: none;
+}
+.sliderContainer ul{
+    display: flex;
+    flex-direction: row;
+}
+.sliderContainer ul li:nth-child(1) a{
+    border: #fff solid 1px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.sliderContainer ul li:nth-child(2) a{
+    background: rgb(41, 167, 68);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+}

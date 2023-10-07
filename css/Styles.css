@@ -1,0 +1,50 @@
+@import url(../css/Slider.css);
+@import url(../css/Oradores.css);
+@import url(../css/Honolulu.css);
+@import url(../css/ConvierteteOrador.css);
+@import url(../css/Footer.css);
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.barranav {
+  display: flex;
+  background-color: rgb(53, 58, 64);
+  color: white;
+  align-items: center;
+  font-size: medium;
+  justify-content: center;
+}
+.barranav ul {
+  display: flex;
+  margin-right: 4%;
+  margin-bottom: 0px;
+  
+}
+.barranav ul li a {
+  color: rgb(151, 158, 151);
+  text-decoration: none;
+}
+.barranav ul li {
+  list-style: none;
+  padding-left: 10px;
+}
+.barranav ul li:nth-child(1) a {
+  color: white;
+}
+.barranav ul li:nth-child(5) a {
+  color: rgb(42, 160, 66);
+}
+.titulo {
+  margin-right: auto;
+  margin-left: 4%;
+  align-items: center;
+  display: flex;
+  
+}
+.titulo p{
+  margin-bottom: 0px;
+}
+
+
+

@@ -1,0 +1,21 @@
+.honoluluDerecha{
+    background: #353A40;
+    border-left: #fff solid 1px;
+    color: #fff;
+    padding: 1%;
+    width: 50%;
+}
+.honoluluImg{
+    width: 50%;
+}
+.honolulu{
+    display: flex;
+    margin-top: 2%;
+}
+.honoluluDerecha a{
+    color: #fff;
+    text-decoration: none;
+    border: #fff solid 1px;
+    border-radius: 5px;
+    padding: 5px;
+}
